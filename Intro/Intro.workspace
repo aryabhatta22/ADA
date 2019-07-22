@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="Intro" Database="" Version="10.0.0">
+  <Project Name="Permutation" Path="Permutation/Permutation.project" Active="No"/>
+  <Project Name="Horner" Path="Horner/Horner.project" Active="Yes"/>
+  <Project Name="TruthTable" Path="TruthTable/TruthTable.project" Active="No"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Environment/>
+      <Project Name="Permutation" ConfigName="Debug"/>
+      <Project Name="Horner" ConfigName="Debug"/>
+      <Project Name="TruthTable" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Environment/>
+      <Project Name="Permutation" ConfigName="Release"/>
+      <Project Name="Horner" ConfigName="Release"/>
+      <Project Name="TruthTable" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>
