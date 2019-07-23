@@ -1,3 +1,8 @@
+/**************************
+ Description :  Horner method for computing value of a polynomial
+ Date                :  22Jul, 2019
+ **************************/
+
 #include<iostream>
 
 using namespace std;

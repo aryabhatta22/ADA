@@ -1,35 +1,52 @@
-#include<bits/stdc++.h>
-
-using namespace std;
-
-
-bool truthAND(string str, int length) {
-    
-}
-
-void permute(string str, int start, int end) {              //start=string index    end=last index
-    
-        if(start==end)
-            cout<<str<<endl;
-
-        else {
-
-            for(int i=start;i<=end;i ++) {
-                
-                
-                swap(str[start], str[i]);
-                
-                permute(str, start+1, end);
-                
-                swap(str[start],str[i]);
-                
-            }
-        }
-}
-
-int main() {
-    string str= "ABC";
-    int n=str.size();
-    permute(str, 0, n-1);
-    return 0;
-}
+/**************************
+ Description :  Creating a Truth table combination
+ Date                :  23 Jul, 2019
+ **************************/
+ 
+ #include<iostream>
+ #include<math.h>
+ 
+ using namespace std;
+ 
+ void PrintTable(int n) {
+     
+     int combinations=(pow(2,n))-1;
+     
+     bool  *arr;
+     arr= new bool[n];
+     
+     for(int i=0;i<n;i++) {
+         arr[i]=false;
+     }
+     
+     cout<<boolalpha;
+     
+     for(int i=0;  i<=combinations;i++){
+         int j=n-1;
+         int k=i;
+         
+         while(k!=0){
+             if(k%2==1)
+                 arr[j]=true;
+                else
+                    arr[j]=false;
+                    
+            j=j-1;
+            k/=2;
+         }
+         
+         for(int i=0;i<n;i++){
+             cout<<arr[i]<<"\t|| \t";
+         }
+         
+         cout<<endl;
+     }
+ }
+ 
+ int main(){
+     
+     PrintTable(3);
+     
+     cout<<endl;
+     return 0;
+ }

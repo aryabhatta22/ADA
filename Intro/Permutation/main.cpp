@@ -1,3 +1,9 @@
+/**************************
+ Description :  Printing all possible permutations of a string
+ Date                :  22Jul, 2019
+ **************************/
+
+
 #include<bits/stdc++.h>
 
 using namespace std;

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Workspace Name="Intro" Database="" Version="10.0.0">
   <Project Name="Permutation" Path="Permutation/Permutation.project" Active="No"/>
-  <Project Name="Horner" Path="Horner/Horner.project" Active="Yes"/>
-  <Project Name="TruthTable" Path="TruthTable/TruthTable.project" Active="No"/>
+  <Project Name="Horner" Path="Horner/Horner.project" Active="No"/>
+  <Project Name="TruthTable" Path="TruthTable/TruthTable.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
