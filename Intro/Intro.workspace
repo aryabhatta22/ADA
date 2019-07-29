@@ -2,19 +2,22 @@
 <CodeLite_Workspace Name="Intro" Database="" Version="10.0.0">
   <Project Name="Permutation" Path="Permutation/Permutation.project" Active="No"/>
   <Project Name="Horner" Path="Horner/Horner.project" Active="No"/>
-  <Project Name="TruthTable" Path="TruthTable/TruthTable.project" Active="Yes"/>
+  <Project Name="TruthTable" Path="TruthTable/TruthTable.project" Active="No"/>
+  <Project Name="Fibonacci" Path="Fibonacci/Fibonacci.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
       <Project Name="Permutation" ConfigName="Debug"/>
       <Project Name="Horner" ConfigName="Debug"/>
       <Project Name="TruthTable" ConfigName="Debug"/>
+      <Project Name="Fibonacci" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
       <Project Name="Permutation" ConfigName="Release"/>
       <Project Name="Horner" ConfigName="Release"/>
       <Project Name="TruthTable" ConfigName="Release"/>
+      <Project Name="Fibonacci" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
