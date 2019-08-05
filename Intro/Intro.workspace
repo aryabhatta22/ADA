@@ -3,8 +3,9 @@
   <Project Name="Permutation" Path="Permutation/Permutation.project" Active="No"/>
   <Project Name="Horner" Path="Horner/Horner.project" Active="No"/>
   <Project Name="TruthTable" Path="TruthTable/TruthTable.project" Active="No"/>
-  <Project Name="Fibonacci" Path="Fibonacci/Fibonacci.project" Active="No"/>
-  <Project Name="sqrt" Path="sqrt/sqrt.project" Active="Yes"/>
+  <Project Name="Fibonacci" Path="Fibonacci/Fibonacci.project" Active="Yes"/>
+  <Project Name="sqrt" Path="sqrt/sqrt.project" Active="No"/>
+  <Project Name="BinarySearch" Path="../Divide&amp;Conquer/BinarySearch/BinarySearch.project"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -13,6 +14,7 @@
       <Project Name="TruthTable" ConfigName="Debug"/>
       <Project Name="Fibonacci" ConfigName="Debug"/>
       <Project Name="sqrt" ConfigName="Debug"/>
+      <Project Name="BinarySearch" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -21,6 +23,7 @@
       <Project Name="TruthTable" ConfigName="Release"/>
       <Project Name="Fibonacci" ConfigName="Release"/>
       <Project Name="sqrt" ConfigName="Release"/>
+      <Project Name="BinarySearch" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
