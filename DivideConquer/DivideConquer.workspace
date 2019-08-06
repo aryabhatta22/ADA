@@ -1,14 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Workspace Name="DivideConquer" Database="" Version="10.0.0">
-  <Project Name="BinarySearch" Path="BinarySearch/BinarySearch.project" Active="Yes"/>
+  <Project Name="BinarySearch" Path="BinarySearch/BinarySearch.project" Active="No"/>
+  <Project Name="MergeSort" Path="MergeSort/MergeSort.project" Active="No"/>
+  <Project Name="EncryptDecrypt" Path="EncryptDecrypt/EncryptDecrypt.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
       <Project Name="BinarySearch" ConfigName="Debug"/>
+      <Project Name="MergeSort" ConfigName="Debug"/>
+      <Project Name="EncryptDecrypt" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
       <Project Name="BinarySearch" ConfigName="Release"/>
+      <Project Name="MergeSort" ConfigName="Release"/>
+      <Project Name="EncryptDecrypt" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
